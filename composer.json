@@ -1,0 +1,12 @@
+{
+    "name": "",
+    "description": "Package for models",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "..",
+            "email": "zoica.murati@greenia.com"
+        }
+    ],
+    "require": {}
+}
