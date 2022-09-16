@@ -4,9 +4,21 @@
     "license": "MIT",
     "authors": [
         {
-            "name": "..",
+            "name": "greenia",
             "email": "zoica.murati@greenia.com"
         }
     ],
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "greenia\\models\\Providers\\ModelProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Greenia\\Models\\": "src/"
+        }
+    }
 }
