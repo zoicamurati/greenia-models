@@ -1,5 +1,5 @@
 <?php
-namespace Greenia\Models\Providers;
+namespace greenia\models\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
