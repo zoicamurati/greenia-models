@@ -12,7 +12,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "greenia\\models\\Providers\\ModelProvider"
+                "greenia\\models\\ModelProvider"
             ]
         }
     },
