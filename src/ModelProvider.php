@@ -1,4 +1,5 @@
 <?php
+
 namespace Greenia\Models;
 
 use Illuminate\Support\ServiceProvider;
@@ -13,5 +14,9 @@ class ModelProvider extends ServiceProvider
     public function boot()
     {
 
+    }
+
+    public function register()
+    {
     }
 }
