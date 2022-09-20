@@ -12,13 +12,13 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Models\\ModelProvider"
+                "Greenia\\Models\\ModelProvider"
             ]
         }
     },
     "autoload": {
         "psr-4": {
-            "Models\\": "src/"
+            "Greenia\\Models\\": "src/"
         }
     }
 }

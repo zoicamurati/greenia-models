@@ -5,12 +5,12 @@ namespace Greenia\Models\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class QoutationData extends Model
+class QuotationData extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'qoutation_id',
+        'quotation_id',
         'premium_amount',
         'taxes_amount',
         'total_amount',
