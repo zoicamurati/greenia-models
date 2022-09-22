@@ -11,7 +11,8 @@ class VehicleMake extends Model
 
     protected $fillable = [
         'id',
-        'name'
+        'name',
+        'adriatic_model_id'
     ];
 
     public $timestamps = false;
