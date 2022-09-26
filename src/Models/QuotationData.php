@@ -38,4 +38,12 @@ class QuotationData extends Model
         'amount',
     ];
 
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function quotation()
+    {
+        return $this->belongsTo(Quotation::class);
+    }
+
 }

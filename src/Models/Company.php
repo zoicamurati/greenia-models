@@ -12,4 +12,12 @@ class Company extends Model
     protected $fillable = [
         'name','logo','status','end_point','end_point_type','username','password'
     ];
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasMany
+     */
+    public function quotations()
+    {
+        return $this->hasMany(Quotation::class);
+    }
 }

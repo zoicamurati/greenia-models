@@ -12,4 +12,20 @@ class Quotation extends Model
     protected $fillable = [
         'request_id', 'company_id'
     ];
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\HasOne
+     */
+    public function quotation_data()
+    {
+        return $this->hasOne(QuotationData::class);
+    }
+
+    /**
+     * @return \Illuminate\Database\Eloquent\Relations\BelongsTo
+     */
+    public function company()
+    {
+        return $this->belongsTo(Company::class);
+    }
 }
